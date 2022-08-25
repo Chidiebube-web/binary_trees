@@ -61,4 +61,5 @@ int binary_tree_is_complete(const binary_tree_t *tree);
 
 int _pow_recursion(int x, int y);
 void btlo_helper(const binary_tree_t *tree, void (*func)(int), size_t level);
+int btic_helper(const binary_tree_t *tree, size_t index, size_t size);
 #endif
